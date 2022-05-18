@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extension-get-started",
+  "scripts": {
+    "build": "node --loader ts-node/esm build.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.14.39",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.186",
+    "esbuild-plugin-copy": "^1.3.0"
+  }
+}
